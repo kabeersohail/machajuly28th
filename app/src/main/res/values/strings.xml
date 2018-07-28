@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MACCHA</string>
+    <string name="signout">Sign out</string>
+    <string name="shoppingmall">Sopping Mall</string>
+    <string name="clothes">Clothes</string>
+    <string name="men">Men</string>
+    <string name="women">Women</string>
+    <string name="kids">Kids</string>
+    <string name="boys">Boys</string>
+    <string name="girls">Girls</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="finish">Finish</string>
+    <string name="welcome">Welcome to Local Online</string>
+    <string name="product_price">Product price</string>
+    <string name="product_name">Product name</string>
+    <string name="image">image</string>
+    <string name="googlesignin">Sign in with google</string>
+    <string name="harem_pants">Harem Pants</string>
+    <string name="dress">Dress</string>
+    <string name="rupee">₹799</string>
+    <string name="upload">Upload</string>
+    <string name="cart">cart</string>
+    <string name="ajio">AJIO</string>
+    <string name="buy_now">Buy now</string>
+    <string name="add_to_cart">Add to cart</string>
+</resources>

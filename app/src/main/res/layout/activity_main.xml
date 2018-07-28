@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/shoppingmall"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="10dp"
+        android:id="@+id/XmlGoogleSignIn"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/googlesignin"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_text_light_normal"/>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="152dp"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<com.google.android.gms.common.SignInButton-->
+            <!--android:id="@+id/XmlGoogleSignIn1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+        <!--</com.google.android.gms.common.SignInButton>-->
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginStart="62dp"
+        android:orientation="vertical">
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/XmlGoogleSignIn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:hide_text_color="#000000"
+        app:hide_text="Google"
+        app:magic_button_size="50dp" />
+
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_twiter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/twitter"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#0c4eb7"
+        app:hide_text="Twitter"
+        app:icon_button_color="#d0d4e2"
+        app:magic_button_size="50dp" />
+
+    <br.com.bloder.magic.view.MagicButton
+        android:id="@+id/magic_button_github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:button_icon="@drawable/github"
+        app:button_icon_height="25dp"
+        app:button_icon_width="25dp"
+        app:expandable_area_color="#464453"
+        app:hide_text="Github"
+        app:icon_button_color="#3a3b40"
+        app:magic_button_size="50dp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
