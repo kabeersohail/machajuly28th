@@ -185,7 +185,25 @@ public class RecyclerActivity extends AppCompatActivity {
 //                                recyclerViewAdapter.notifyDataSetChanged();
                             }
                         }
-                        recyclerViewAdapter.notifyDataSetChanged();
+
+                        String[] PN;
+                        int[] PP;
+                        String[] IP;
+                        PP = new int[o];
+                        PN = new String[o];
+                        IP = new String[o];
+
+                        for(int i=0;i<o;i++){
+                            PP[i] = productprice[i];
+                            PN[i] = productname[i];
+                            IP[i] = imagepath[i];
+                        }
+                        recyclerView.setAdapter(null);
+                        recyclerViewAdapter = new RecyclerViewAdapter(RecyclerActivity.this,IP,PN,PP);
+                        layoutManager = new GridLayoutManager(RecyclerActivity.this,2);
+                        recyclerView.setLayoutManager(layoutManager);
+                        recyclerView.setAdapter(recyclerViewAdapter);
+//                        recyclerViewAdapter.notifyDataSetChanged();
                     }
 
                     @Override
